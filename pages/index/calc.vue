@@ -7,12 +7,12 @@
                 <div :class="$style.labelAndInput">
                     <span>Валюта 1</span>
                     <input :class="{[$style.ok]:valute1!==0}" id="valute1" @input="changeInputs" placeholder="Введите название или код" type="text">
-                    <div v-if="valute1!==0">{{typeof valute1}}</div>
+                   
                 </div>
                 <div :class="$style.labelAndInput">
                     <span>Валюта 2</span>
                     <input :class="{[$style.ok]:valute2!==0}" id="valute2" @input="changeInputs" placeholder="Введите название или код" type="text">
-                    <div v-if="valute2!==0">{{typeof valute2}}</div>
+                   
                 </div>
                 <div :class="$style.labelAndInput">
                     <span>Количество</span>
