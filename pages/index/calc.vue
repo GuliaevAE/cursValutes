@@ -17,7 +17,7 @@
                 <div :class="$style.labelAndInput">
                     <span>Количество</span>
                     <input id="count" @input="changeInputs" placeholder="Введите название или код" type="number">
-                    <div v-if="count!==0">{{typeof count}}</div>
+                    
                 </div>
                 <div :class="$style.endValue">
                     <div :class="$style.symbol">
